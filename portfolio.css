@@ -1,0 +1,178 @@
+html {
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+
+nav{
+	font-size: 100%;
+	font-family: Arial, "Times New Roman", serif;
+    display: block;
+}
+
+body{
+    margin:0;
+}
+
+header,nav {
+    display:block;
+
+}
+
+footer{
+	display:block;
+    text-align: center;
+}
+
+
+.ulnav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(114, 114, 114);
+  }
+  
+.linav {
+	float: left;
+  }
+  
+.linav a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+  }
+  
+.linav a:hover {
+	background-color: #555555;
+  }
+
+.linav-right {
+    float: right;
+  }
+
+a{
+    background-color:transparent;
+}
+
+
+a:hover {
+    color: #4CAF50;
+}
+
+html,body{
+    font-family:Verdana,sans-serif;font-size:15px;line-height:1.5;
+}
+
+html{
+    overflow-x:hidden;
+}
+
+h1{
+    font-size:36px;
+}
+
+h2{
+    font-size:30px;
+}
+
+h3{
+    font-size:24px;
+}
+
+h4{
+    font-size:20px;
+}
+
+h5{
+    font-size:18px;
+}
+
+
+hr{
+    border:0;
+    border-top:1px solid #eeeeee;
+    margin:20px 0;
+}
+
+
+.w3-ul.w3-hoverable li:hover{background-color:#cccccc;}
+
+
+.w3-ul{list-style-type:none;padding:0;margin:0}.w3-ul li{padding:8px 16px;border-bottom:1px solid #dddddd}
+
+
+.w3-container:after,.w3-container:before,.w3-row:after,.w3-row:before,.w3-row-padding:after,.w3-row-padding:before,.w3-clear:after,.w3-clear:before,.w3-bar:before,.w3-bar:after{content:"";display:table;clear:both}
+
+.w3-col{float:left;width:100%}
+
+.w3-col.m99{
+    width:99.99999%;
+}
+
+
+.w3-col.m33{
+    width:33.33333%;
+}
+
+
+.w3-col.m66{
+    width:66.66666%;
+}
+
+
+.w3-content,.w3-auto{margin-left:auto;margin-right:auto}
+
+.w3-content{max-width:980px}
+
+.w3-auto{max-width:1140px}
+
+.w3-auto{max-width:100%}}
+
+.w3-top,.w3-bottom{position:fixed;width:100%;z-index:1}
+
+.w3-top{top:0}
+
+.w3-bottom{bottom:0}
+
+.w3-container{padding:0.01em 16px}
+
+.resources-card{
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+
+.er-card{
+    box-shadow:0 1px 2px 0 rgba(0,0,0,0.16),0 1px 2px 0 rgba(0,0,0,0.12)
+}
+
+.div-card{
+    box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.large{font-size:18px!important}
+
+
+.center{text-align:center!important}
+
+
+.w3-margin, .w3-margin-top, .w3-margin-right, .w3-margin-bottom, .w3-margin-left{
+    margin:16px!important;
+}
+
+.w3-padding{padding:8px 16px!important}
+.w3-padding-16{padding-top:16px!important;padding-bottom:16px!important}
+.w3-padding-32{padding-top:32px!important;padding-bottom:32px!important}
+
+
+.w3-left{float:left!important}.w3-right{float:right!important}
+
+/* Colors */
+.white,.hover-white:hover{color:#000!important;background-color:#ffffff!important}
+
+.light-gray,.hover-light-gray:hover{color:#000000!important;background-color:#f1f1f1!important}
+
+.dark-gray,.dark-gray:hover{color:#ffffff!important;background-color:#616161!important}
+
+/* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
+/* html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit} */
