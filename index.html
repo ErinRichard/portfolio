@@ -84,27 +84,27 @@ and is wrapped around the whole page content, except for the footer in this exam
   <form>
     <fieldset style="border:none">
       <legend>Select your favorite programming language:</legend>
-        <input type="radio" name="language" onclick="myFunction(this.value)" value="C#">
+        <input type="radio" name="language" id="C#" onclick="myFunction(this.value)" value="C#">
         <label for="C#">C#</label> <br />
-        <input type="radio" name="language" onclick="myFunction(this.value)" value="JavaScript">
+        <input type="radio" name="language" id="JavaScript" onclick="myFunction(this.value)" value="JavaScript">
         <label for="JavaScript">JavaScript</label>  <br />
-        <input type="radio" name="language" onclick="myFunction(this.value)" value="Python">
+        <input type="radio" name="language" id="Python" onclick="myFunction(this.value)" value="Python">
         <label for="Python">Python</label> <br />
-        <input type="radio" name="language" onclick="myFunction(this.value)" value="Ruby">
+        <input type="radio" name="language" id="Ruby" onclick="myFunction(this.value)" value="Ruby">
         <label for="Ruby">Ruby</label> <br />
-        <input type="radio" name="language" onclick="myFunction(this.value)" value="None of these">
+        <input type="radio" name="language" id="None of these" onclick="myFunction(this.value)" value="None of these">
         <label for="None of these">None of these</label> <br />
-        <input type="radio" name="language" onclick="myFunction(this.value)" value="Don't know">
+        <input type="radio" name="language" id="Don't know" onclick="myFunction(this.value)" value="Don't know">
         <label for="Don't know">Don't know</label> <br> <br />
     </fieldset>
     
 
-  You chose: <input type="text" id="result">
-  <input type="submit" value="Submit form"><br>
+    <label for="Submit form">You chose: </label><input type="text" id="result">
+    <input type="submit" value="Submit form"><br>
 
-  <br />
-
-</form>
+  </form>
+  
+<br />
 
 <script>
 function myFunction(browser) {
