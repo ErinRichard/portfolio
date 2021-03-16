@@ -82,18 +82,21 @@ and is wrapped around the whole page content, except for the footer in this exam
       
       <p>Select your favorite programming language:</p>
   <form>
-    <input type="radio" name="language" onclick="myFunction(this.value)" value="C#">
-    <label for="C#">C#</label> <br />
-    <input type="radio" name="language" onclick="myFunction(this.value)" value="JavaScript">
-    <label for="JavaScript">JavaScript</label>  <br />
-    <input type="radio" name="language" onclick="myFunction(this.value)" value="Python">
-    <label for="Python">Python</label> <br />
-    <input type="radio" name="language" onclick="myFunction(this.value)" value="Ruby">
-    <label for="Ruby">Ruby</label> <br />
-    <input type="radio" name="language" onclick="myFunction(this.value)" value="None of these">
-    <label for="None of these">None of these</label> <br />
-    <input type="radio" name="language" onclick="myFunction(this.value)" value="Don't know">
-    <label for="Don't know">Don't know</label> <br> <br />
+    <fieldset>
+      <legend>Choose Favorite Programming Language:</legend>
+        <input type="radio" name="language" onclick="myFunction(this.value)" value="C#">
+        <label for="C#">C#</label> <br />
+        <input type="radio" name="language" onclick="myFunction(this.value)" value="JavaScript">
+        <label for="JavaScript">JavaScript</label>  <br />
+        <input type="radio" name="language" onclick="myFunction(this.value)" value="Python">
+        <label for="Python">Python</label> <br />
+        <input type="radio" name="language" onclick="myFunction(this.value)" value="Ruby">
+        <label for="Ruby">Ruby</label> <br />
+        <input type="radio" name="language" onclick="myFunction(this.value)" value="None of these">
+        <label for="None of these">None of these</label> <br />
+        <input type="radio" name="language" onclick="myFunction(this.value)" value="Don't know">
+        <label for="Don't know">Don't know</label> <br> <br />
+    </fieldset>
     
 
   You chose: <input type="text" id="result">
